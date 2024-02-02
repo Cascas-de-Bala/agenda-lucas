@@ -9,7 +9,7 @@ export default function App() {
         {/* Adicione os ícones do menu, pesquisa e mais opções aqui */}
       </View>
       <View style={styles.profile}>
-        <Image source={require('../assets/avatar.jpg')} style={styles.avatar} />
+      <Image source={require('./assets/avatar.jpg')} style={styles.avatar} />
         <Text style={styles.name}>Lucas Carli</Text>
       </View>
       {/* Adicione a lista de contatos aqui */}
